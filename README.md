@@ -111,4 +111,3 @@ Contributions, feedback, and forks are warmly welcomed!
 
 ---
 
-Let me know if you’d like to add badges, a demo video, or deployment instructions for platforms like Windows or Raspberry Pi.
