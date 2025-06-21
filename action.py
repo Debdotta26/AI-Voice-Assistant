@@ -2,10 +2,11 @@ import text_to_speech
 import datetime
 import webbrowser
 import weather
+import knowledge
 import speech_to_text
 
 def Action(data):
-    user_data = data.lower()
+    user_data=data.lower()
 
     if "what is your name" in user_data:
         text_to_speech.text_to_speech("My name is Virtual Assistant")
@@ -53,10 +54,38 @@ def Action(data):
         text_to_speech.text_to_speech("spotify is now ready for you")
         return "spotify is now ready for you"
 
+    elif "aditya" in user_data:
+        text_to_speech.text_to_speech("good night adi, love u a lot and thank u for always being there for me")
+        return "good night adi, love u a lot and thank u for always being there for me"
+
+
     elif "weather" in user_data:
         ans = weather.weather()
         text_to_speech.text_to_speech(ans)
         return ans
 
+    elif  "tell me a joke" in user_data:
+        joke = knowledge.tell_joke()
+        text_to_speech.text_to_speech(joke)
+        return joke
+
+    elif "tell me a fact" in user_data:
+        fact = knowledge.tell_fact()
+        text_to_speech.text_to_speech(fact)
+        return fact
+
+    elif "what is" in user_data or "who is" in user_data or "tell me about" in user_data:
+        topic = (
+            user_data.replace("what is", "")
+            .replace("who is", "")
+            .replace("tell me about", "")
+            .strip()
+        )
+        info = knowledge.get_knowledge(topic)
+        text_to_speech.text_to_speech(info)
+        return info
+
     else:
-        text_to_speech.text_to_speech("I'm not able to understand")
+        text_to_speech.text_to_speech("I am not able to understand")
+        return "I am not able to understand"
+   
