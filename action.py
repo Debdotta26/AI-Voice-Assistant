@@ -54,10 +54,6 @@ def Action(data):
         text_to_speech.text_to_speech("spotify is now ready for you")
         return "spotify is now ready for you"
 
-    elif "aditya" in user_data:
-        text_to_speech.text_to_speech("good night adi, love u a lot and thank u for always being there for me")
-        return "good night adi, love u a lot and thank u for always being there for me"
-
 
     elif "weather" in user_data:
         ans = weather.weather()
