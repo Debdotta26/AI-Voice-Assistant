@@ -27,6 +27,11 @@ pyjokes – for jokes
 wikipedia – for knowledge queries
 requests-html – for weather scraping
 Pillow – image handling in GUI
+🚀 How to Run git clone https://github.com/Debdotta26/AI-Voice-Assistant.git
+cd AI-Voice-Assistant
+Install dependencies pip install -r requirements.txt
+Usage
+Run the assistant with:python GUI.py
 
 📁 File Structure AI-Voice-Assistant/ ├── action.py # Handles voice commands and logic ├── gui.py # Main GUI interface ├── knowledge.py # Jokes, facts, and Wikipedia queries ├── speech_to_text.py # Converts microphone input to text ├── text_to_speech.py # Converts text to speech ├── weather.py # Scrapes weather info ├── download (1).jpg # Image used in the GUI ├── requirements.txt # Required packages └── README.md # This file
 
@@ -50,3 +55,4 @@ AI Assistant output.jpg
 This project is open-source and available under the MIT License.
 
 🙋‍♂️ Author
+Debdotta Bhattacharya
