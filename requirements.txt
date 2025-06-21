@@ -2,3 +2,7 @@ pyttsx3
 SpeechRecognition
 requests-html
 pillow
+lxml
+PyAudio
+pyjokes
+wikipedia
