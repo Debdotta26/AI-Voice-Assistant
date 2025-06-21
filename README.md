@@ -1,58 +1,114 @@
-AI-Voice-Assistant
-A voice-activated AI assistant with GUI using Python, speech recognition, and web integration.
+Of course! Here's a refined version of your GitHub README content for the **AI Voice Assistant** project:
 
-🧠 AI Voice Assistant
-A Python-based voice-activated virtual assistant with a graphical user interface (GUI). It responds to voice or text input and performs tasks like telling jokes, sharing facts, fetching knowledge from Wikipedia, reporting the weather, opening websites, and more—all using speech synthesis.
+---
 
-💡 Features
-Features
+# 🧠 AI Voice Assistant
 
-🎙️ Voice input using microphone
-🗣️ Text-to-speech responses
-🌦️ Weather updates
-🌐 Opens websites like Google, YouTube, Gaana
-⏰ Tells current time
-🧠 Answers general knowledge questions via Wikipedia
-😂 Tells programming jokes using pyjokes
-📚 Shares fun facts
-💬 Greets user and responds to basic inputs
-🖼️ GUI built with Tkinter and image display using Pillow
-🛠️ Technologies Used
+A voice-activated virtual assistant built with Python and a graphical user interface (GUI). It can respond to both voice and text input, performing tasks like telling jokes, sharing fun facts, fetching information from Wikipedia, reporting the weather, opening websites, and more—all using speech synthesis.
 
-Python 3
-Tkinter – GUI interface
-SpeechRecognition – speech-to-text
-pyttsx3 – text-to-speech
-pyjokes – for jokes
-wikipedia – for knowledge queries
-requests-html – for weather scraping
-Pillow – image handling in GUI
-🚀 How to Run git clone https://github.com/Debdotta26/AI-Voice-Assistant.git
+---
+
+## 💡 Features
+
+- 🎙️ Voice input using microphone  
+- 🗣️ Text-to-speech responses  
+- 🌦️ Weather updates  
+- 🌐 Opens websites like Google, YouTube, Gaana  
+- ⏰ Tells the current time  
+- 🧠 Answers general knowledge questions via Wikipedia  
+- 😂 Tells programming jokes using `pyjokes`  
+- 📚 Shares fun facts  
+- 💬 Greets the user and responds to basic inputs  
+- 🖼️ GUI built with `Tkinter` and image rendering via `Pillow`
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3  
+- `Tkinter` – GUI interface  
+- `SpeechRecognition` – Speech-to-text  
+- `pyttsx3` – Text-to-speech  
+- `pyjokes` – Programming jokes  
+- `wikipedia` – Knowledge retrieval  
+- `requests-html` – Weather scraping  
+- `Pillow` – Image handling in GUI
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Debdotta26/AI-Voice-Assistant.git
 cd AI-Voice-Assistant
-Install dependencies pip install -r requirements.txt
-Usage
-Run the assistant with:python GUI.py
+```
 
-📁 File Structure AI-Voice-Assistant/ ├── action.py # Handles voice commands and logic ├── gui.py # Main GUI interface ├── knowledge.py # Jokes, facts, and Wikipedia queries ├── speech_to_text.py # Converts microphone input to text ├── text_to_speech.py # Converts text to speech ├── weather.py # Scrapes weather info ├── download (1).jpg # Image used in the GUI ├── requirements.txt # Required packages └── README.md # This file
+Install dependencies:
 
-🧪 Sample Commands
+```bash
+pip install -r requirements.txt
+```
 
-"What is your name?"
-"Tell me a joke"
-"Tell me a fact"
-"What is Python?"
-"Open Google"
-"What's the weather?"
-"Play music"
-"Good morning"
-📸 Screenshot 
-Here is a preview of the AI Assistant GUI:
-AI Assistant output.jpg
+Run the assistant:
 
+```bash
+python GUI.py
+```
 
+---
 
-📄 License
-This project is open-source and available under the MIT License.
+## 📁 File Structure
 
-🙋‍♂️ Author
-Debdotta Bhattacharya(https://github.com/Debdotta26/AI-Voice-Assistant)
+```
+AI-Voice-Assistant/
+├── action.py             # Handles voice commands and logic
+├── gui.py                # Main GUI interface
+├── knowledge.py          # Jokes, facts, and Wikipedia queries
+├── speech_to_text.py     # Converts microphone input to text
+├── text_to_speech.py     # Converts text to speech
+├── weather.py            # Scrapes weather info
+├── download (1).jpg      # Image used in the GUI
+├── requirements.txt      # Required packages
+└── README.md             # Project documentation
+```
+
+---
+
+## 🧪 Sample Commands
+
+Try saying:
+
+- “What is your name?”  
+- “Tell me a joke”  
+- “What is Python?”  
+- “Open Google”  
+- “What’s the weather?”  
+- “Good morning”
+
+---
+
+## 📸 Screenshot
+
+Here’s a preview of the AI Assistant GUI:
+
+![AI Assistant GUI](AI%20Assistant%20output.jpg)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+Feel free to use, modify, and distribute it—with credit.
+
+---
+
+## 🙋‍♂️ Author
+
+Created by [**Debdotta Bhattacharya**](https://github.com/Debdotta26/AI-Voice-Assistant)  
+Contributions, feedback, and forks are warmly welcomed!
+
+---
+
+Let me know if you’d like to add badges, a demo video, or deployment instructions for platforms like Windows or Raspberry Pi.
