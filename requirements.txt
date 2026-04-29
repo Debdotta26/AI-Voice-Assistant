@@ -11,7 +11,7 @@ wikipedia
 
 
 
-
+userdata
 #!/bin/bash
 apt-get update
 apt-get upgrade
@@ -25,6 +25,7 @@ git clone https://github.com/Debdotta26/aws_ass.git
 cd aws_ass
 npm install
 node index.js
+#hosting a website
 (nginx -v
 pwd
 cd ..
@@ -60,6 +61,8 @@ git push
 git pull origin main
 
 
+
+#without using port
 pwd
 cd /
 ls
