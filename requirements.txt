@@ -50,15 +50,13 @@ git push -u origin main
 
 
 #github to local
-. git clone https://github.com/Debdotta26/aws_ass.git
-cd aws
-pwd
-cd Debdotta26
-.ls
-.cd aws_ass
-.git commit -m "updating files"
-.git push
-.git pull origin main
-.git add .
+git clone https://github.com/Debdotta26/aws_ass.git
+ls
+cd aws_ass
+ls
+git add .
+git commit -m "done"
+git push
+git pull origin main
 
 
