@@ -6,3 +6,58 @@ lxml
 PyAudio
 pyjokes
 wikipedia
+
+
+
+
+
+
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/Debdotta26/aws_ass.git
+cd aws_ass
+npm install
+node index.js
+(nginx -v
+pwd
+cd ..
+cd /var/www/html
+/var/www/html
+ls
+sudo chmod 777 /var/www/html/
+/var/www/html
+)
+
+
+
+#local to github
+git init
+git config --global user.name "Debdotta26"
+git config --global user.email "jiniapumpoo0926@gmail.com"
+git add .
+git remote
+git remote add origin https://github.com/Debdotta26/aws_ass
+git branch -M main
+git push -u origin main
+
+
+#github to local
+. git clone https://github.com/Debdotta26/aws_ass.git
+cd aws
+pwd
+cd Debdotta26
+.ls
+.cd aws_ass
+.git commit -m "updating files"
+.git push
+.git pull origin main
+.git add .
+
+
