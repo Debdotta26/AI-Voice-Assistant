@@ -89,3 +89,16 @@ sudo chmod +x default
 cd ..
 cd ..
 sudo systemctl restart nginx
+
+
+
+#load balancer
+pwd
+sudo nano debo.sh
+#!/bin/bash
+while(true)
+do
+    echo "loop runnning"
+done(ctrl+x)
+sudo chmod +x debo.sh
+sh debo.sh
