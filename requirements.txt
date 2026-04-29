@@ -42,6 +42,7 @@ git init
 git config --global user.name "Debdotta26"
 git config --global user.email "jiniapumpoo0926@gmail.com"
 git add .
+git commit -m "done"
 git remote
 git remote add origin https://github.com/Debdotta26/aws_ass
 git branch -M main
